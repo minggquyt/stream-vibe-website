@@ -1,10 +1,10 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Homepage/Homepage';
 import Resources from './pages/Resources/Resources';
 import Podcasts from './pages/Podcasts/Podcasts';
 import News from './pages/News/News';
 import NotFoundPage from './pages/Notefound/NoteFound';
-import Header from './components/Header/header';
+import Header from './components/Header/Header.tsx';
 import './global.css'
 
 function App() {
