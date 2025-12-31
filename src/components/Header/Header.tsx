@@ -18,7 +18,7 @@ export default function Header() {
                     <Link to="/podcasts">Podcasts</Link>
                     <Link to="resources">Resources</Link>
                 </nav>
-                <button>Contact Us</button>
+                <button className='inter-500'>Contact Us</button>
             </div>
         </div>
     )
