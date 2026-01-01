@@ -1,6 +1,11 @@
 import './ViewMoreButton.css'
 
-export default function ViewMoreButton({title}) {
+// declare datatype
+type ViewMoreButtonProps = {
+    title: String
+}
+
+export default function ViewMoreButton({title}: ViewMoreButtonProps) {
     return (
         <div className="viewmorebutton">
             <span className='inter-400' >{title}</span>
